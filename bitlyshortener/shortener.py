@@ -83,7 +83,7 @@ class Shortener:
 
     def _int_id_to_short_url(self, url_id: int) -> str:
         url_id_ = self._bytes_int_encoder.decode(url_id).decode()
-        short_url = f"https://j.mp/{url_id_}"
+        short_url = f"https://amzn.to/{url_id_}"
         return short_url
 
     @staticmethod
